@@ -1,0 +1,12 @@
+table{
+	width:500px;
+	height: 300 px;
+	
+}
+th{
+	font-weight: bold;
+	
+}
+td {text-align: center;
+	font-weight: normal;
+}
