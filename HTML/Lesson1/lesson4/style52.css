@@ -1,0 +1,29 @@
+#elem1 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	width: 300px;
+	height: 100px;
+}
+#elem2 {
+	border-width: 5px;
+	border-style: dashed;
+	border-color: red;
+	width: 300px;
+	height: 100px;
+}
+#elem3 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: yellow;
+	width: 300px;
+	height: 100px;
+}
+#elem4 {
+	border-width: 5px;
+	border-style: double;
+	border-color: blue;
+	width: 300px;
+	height: 100px;
+}
+

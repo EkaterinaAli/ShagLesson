@@ -1,0 +1,11 @@
+#elem {
+	width: 200px;
+	height: 200px;
+	background-color: #7B68EE; /* задаем фиолетовый
+		цвет фона */ 
+}
+#elem2 {
+	width: 300px;
+	height: 200px;
+	background-color: #00FFFF; 
+}

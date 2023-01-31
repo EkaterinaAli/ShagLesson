@@ -1,0 +1,14 @@
+#elem {
+	width: 600px;
+	height: 400px;
+	background-color: #00FF7F; /* задаем зеленый цвет фона */
+	vertical-align: top;
+}
+div p {
+	font-size: 32px;
+	text-align: center;
+	text-align: top;
+	color: white;
+	
+}
+
