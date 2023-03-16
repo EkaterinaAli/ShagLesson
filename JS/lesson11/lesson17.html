@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title>Frames object</title>
+ <style>
+ iframe{
+ border:1px solid navy;
+ height:300px;
+ margin:30px;
+ width:300px;
+ }
+ button{
+ margin:10px 150px;
+ }
+ </style>
+</head>
+<body>
+ <iframe src="about:blank"></iframe>
+ <br>
+ <button onclick="
+ window.frames[0].location='https://itstep.org';
+ window.frames[1].location='https://quiz.itstep.org';
+ ">
+ IT Step
+ </button>
+ <button onclick="history.back()">
+    Назад</button>
+ <button onclick="history.forward()">
+    Вперед</button>
+</body>
+</html>
+
