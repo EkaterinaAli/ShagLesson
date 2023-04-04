@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ <title>Simple form</title>
+ 
+ 
+ </head>
+ <body>
+       <form action='' method='GET' id ="sendName">
+        <input type = "text" placeholder = "Your first name" name="name" required />
+        </form>
+        <script>
+            document.getElementById("sendName").addEventListener("submit", checkForm);
+            function checkForm(event){
+            event.preventDefault()
+            var nameText = document.getElementById("name").
+            value;
+            if(nameText.length > 0)
+            document.getElementById("poll").submit();}
+           </script>
+</body>
+</html>
